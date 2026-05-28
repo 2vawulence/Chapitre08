@@ -11,7 +11,7 @@ public class BookShelf {
         return books;
     }
 
-    public void add(String bookToAdd) {
-        books.addAll(Arrays.asList(new String[]{bookToAdd}));
+    public void add(String... booksToAdd) {
+        books.addAll(Arrays.asList(booksToAdd));
     }
 }
